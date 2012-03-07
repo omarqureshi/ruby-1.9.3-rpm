@@ -1,5 +1,5 @@
 %define rubyver         1.9.3
-%define rubyminorver    p0
+%define rubyminorver    p125
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -64,6 +64,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Wed Mar 7 2012 Omar Qureshi <omar@omarqureshi.net> - 1.9.3-p125
+- Update ruby version to 1.9.3-p125
 * Wed Jan 18 2012 Mandi Walls <mandi.walls@gmail.com> - 1.9.3-p0
 - Update ruby version to 1.9.3-p0
 * Mon Aug 29 2011 Gregory Graf <graf.gregory@gmail.com> - 1.9.2-p290
